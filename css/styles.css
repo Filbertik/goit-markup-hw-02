@@ -3,17 +3,7 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-.head_blok {
-  width: 1440px;
-  height: 72px;
-  text-align: justify;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: auto;
-  padding: 0;
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -41,21 +31,9 @@ body {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.navigation {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 .logo_navigation {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
   list-style-type: none;
-  width: 261px;
-  height: 24px;
   font-weight: 500;
 }
 .logo_list {
@@ -75,10 +53,7 @@ body {
   font-style: normal;
 }
 .adres {
-  display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 .mail {
   font-weight: 400;
@@ -91,16 +66,12 @@ body {
   color: #404bbf;
 }
 .mail:focus {
-  columns: #404bbf;
+  color: #404bbf;
 }
 .main_page {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 .hero_title {
-  width: 496px;
-  height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -127,26 +98,7 @@ body {
 .hide_header {
   display: none;
 }
-.adv_table {
-  width: 1128px;
-  height: 104px;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.adv_list {
-  width: 264px;
-  height: 104px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-}
+
 .adv_title {
   font-weight: 500;
   font-size: 20px;
@@ -174,41 +126,12 @@ h2 {
   color: #2e2f42;
 }
 .team_card_box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 72px;
-  margin-bottom: 0px;
   list-style-type: none;
 }
 .team_card {
   background-color: #ffffff;
 }
-.portfel {
-  width: 1128px;
-  height: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
-}
-.portfel_card_box {
-  width: 1128px;
-  height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style-type: none;
-}
-.portfel_card {
-  width: 360px;
-  height: 420px;
-  margin-left: 12px;
-  margin-right: 12px;
-}
+
 footer {
   width: 1440px;
   height: 312px;
