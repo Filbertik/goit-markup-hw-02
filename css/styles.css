@@ -1,8 +1,7 @@
 body {
-  margin: 0;
-  height: 100%;
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  color: #434455;
 }
 .head_blok {
   width: 1440px;
@@ -15,7 +14,7 @@ body {
   margin: auto;
   padding: 0;
 }
-.logo_part1 {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -57,12 +56,36 @@ body {
   list-style-type: none;
   width: 261px;
   height: 24px;
+  font-weight: 500;
+}
+.logo_list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+address {
+  font-style: normal;
 }
 .adres {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail:hover {
+  color: #404bbf;
+}
+.mail:focus {
+  columns: #404bbf;
 }
 .main_page {
   width: 1440px;
@@ -74,23 +97,26 @@ body {
   height: 120px;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .cta {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
   background: #4d5ae5;
+}
+.cta:hover {
+  color: #404bbf;
+}
+.cta:focus {
+  color: #404bbf;
 }
 .hide_header {
   display: none;
@@ -115,19 +141,28 @@ body {
   flex-direction: column;
   gap: 8px;
 }
+.adv_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.adv_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .about {
-  width: 1440px;
-  height: 732px;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
   background: #f4f4fd;
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -138,17 +173,10 @@ h2 {
   justify-content: space-between;
   margin-top: 72px;
   margin-bottom: 0px;
+  list-style-type: none;
 }
 .team_card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 12px;
-  margin-right: 12px;
+  background-color: #ffffff;
 }
 .portfel {
   width: 1128px;
@@ -183,12 +211,7 @@ footer {
   padding-bottom: 100px;
   padding-left: 156px;
 }
-.footer_content {
-  width: 264px;
-  height: 112px;
-  margin: 0;
-  padding: 0;
-}
+
 .footer_text {
   font-weight: 400;
   font-size: 16px;
