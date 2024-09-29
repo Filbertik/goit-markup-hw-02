@@ -54,6 +54,7 @@ body {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
+  list-style-type: none;
   width: 261px;
   height: 24px;
 }
