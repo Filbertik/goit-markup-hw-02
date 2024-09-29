@@ -13,7 +13,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo_part2 {
+.logo_part {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -124,15 +124,7 @@ address {
 .about {
   background: #f4f4fd;
 }
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
+
 .hederr {
   font-weight: 700;
   font-size: 36px;
