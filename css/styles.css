@@ -18,7 +18,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -27,10 +27,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 .logo_part2_ {
   font-family: "Raleway", sans-serif;
@@ -65,7 +65,13 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-address {
+.logo_list:hover {
+  color: #2e2f42;
+}
+.logo_list:focus {
+  color: #404bbf;
+}
+.address {
   font-style: normal;
 }
 .adres {
@@ -113,10 +119,10 @@ address {
   background: #4d5ae5;
 }
 .cta:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .cta:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .hide_header {
   display: none;
